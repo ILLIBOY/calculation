@@ -6,12 +6,11 @@ namespace calculation
 	{
 		public static void Main (string[] args)
 		{
-			int a = 10;
-			Console.WriteLine (a++);
-			Console.WriteLine (++a);
+			string result = "123"+"456";
+			Console.WriteLine (result);
 
-			Console.WriteLine (a--);
-			Console.WriteLine (--a);
+			result = "Hello"+" "+"Wrold!";
+			Console.WriteLine (result);
 		}
 	}
 }
